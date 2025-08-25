@@ -1,14 +1,15 @@
 # Infra-Lens
 
+A professional, modular GitHub Action that automatically summarizes infrastructure changes using AI (OpenAI API), making infrastructure changes easier to understand for both technical and non-technical stakeholders.
+
+
+# Background
+
 My general goal is to make complex things as simple as possible — so here we go.
 
-According to Claude.ai (and myself), this project can be summarized as:
+Sometimes you just need simple words and short sentences to explain what’s happening during AWS CDK diffs before deployment — especially when many commits or unexpected API updates unanticipated changes.
 
-A professional, modular GitHub Action that automatically summarizes infrastructure changes using AI, making infrastructure changes easier to understand for both technical and non-technical stakeholders.
-
-Sometimes, you just want simple words and short sentences to explain what’s happening during CDK deploys — with a little help from our AI friends.
-
-This project grew out of my journey learning AWS, IaC, and CloudFormation — and the realization that certain changes (like updates to deprecated APIs) can unexpectedly break your cloud stack. It’s designed as an add-on to your workflow, helping anyone — even with limited time or technical background — quickly understand infrastructure changes to your cloud.
+This project grew out of my journey learning of AWS, IaC, and CloudFormation — and the realization that certain changes (like updates to deprecated APIs) can unexpectedly break your cloud stack. It’s designed as an add-on to your workflow, helping anyone — even with limited time or technical background — quickly understand infrastructure changes to your cloud. Is aims at helping you in easly analysing what's going on.
 
 <!--
 
