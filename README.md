@@ -27,9 +27,7 @@ This project grew out of my journey learning of AWS, IaC, and CloudFormation —
 - **Flexible Output**: Post summaries as PR comments, create issues, or both
 - **Customizable Templates**: Jinja2-based template system with custom filters
 - **Smart Caching**: File-based caching to reduce API calls and improve performance
-- **Modular Architecture**: Clean, maintainable codebase with separate concerns
 - **Risk Assessment**: Automatic risk level calculation based on resource types
-
 - **Security Focus**: Special attention to security-related resource changes
 - **Flexible Configuration**: Extensive configuration options via environment variables
 - **Rate Limiting**: Built-in exponential backoff for API reliability
