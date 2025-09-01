@@ -128,10 +128,9 @@ In your repository settings, add this secret:
 
 ### `markdown` (Default)
 Standard markdown format with structured sections:
-- Executive Summary
+- Summary
 - Resource Changes Table
 - Security & Permissions
-
 - Risk Assessment
 - Deployment Notes
 
@@ -170,7 +169,6 @@ The action generates summaries like this:
 - **IAM Roles & Policies**: Security permissions for the Lambda function
 
 ### Business Impact
-
 - **Security**: Enhanced with proper IAM roles
 - **Scalability**: Serverless architecture allows automatic scaling
 
@@ -258,21 +256,12 @@ If you encounter any issues or have questions, please [open an issue](https://gi
 
 ## 📦 GitHub Marketplace
 
-This action is available on the [GitHub Marketplace](https://github.com/marketplace/actions/cdk-diff-summarizer) for easy installation and discovery.
+This action is available on the [GitHub Marketplace](https://github.com/CloudLabOne/Infra-Lens) for easy installation and discovery.
 
 ### Installation
 
-1. Go to the [GitHub Marketplace](https://github.com/marketplace/actions/cdk-diff-summarizer)
+1. Go to the [GitHub Marketplace](https://github.com/CloudLabOne/Infra-Lens)
 2. Click "Use latest version"
 3. Copy the generated workflow code
 4. Add your `OPENAI_API_KEY` secret to your repository
-
-### Features
-
-- 🤖 **AI-Powered Analysis**: Uses OpenAI's GPT models
-- 📊 **Risk Assessment**: Identifies potential security and operational risks
-
-- 📝 **Multiple Output Formats**: Markdown, JSON, and HTML
-- 🌍 **Multi-Language Support**: English and Dutch
-- 🔒 **Security Focus**: Highlights IAM and security implications 
 <!-- last updated: 2025-07-29 -->
